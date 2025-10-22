@@ -1,0 +1,100 @@
+/* ===== ESTILOS GENERALES ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+/* ===== PERSONA 1: HEADER Y FOOTER ===== */
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* ===== PERSONA 2: ARTÍCULOS ===== */
+.articulos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+article {
+  background: white;
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+article img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+article h2 {
+  margin-top: 10px;
+}
+
+article a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* ===== PERSONA 3: ASIDE ===== */
+aside {
+  background-color: white;
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+aside h3 {
+  margin-top: 0;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .articulos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  aside {
+    margin: 20px;
+  }
+}
