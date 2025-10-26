@@ -58,12 +58,14 @@ footer {
 }
 
 /* ===== Nathan: ARTÍCULOS ===== */
+/* ===== PERSONA 3: ARTÍCULOS FEO ===== */
 .articulos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-  padding: 25px;
+    display: flex;
+    flex-wrap: wrap; /* obligatorio */
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 5px;
+    background-color: #ff0000; /* rojo chillón */
 }
 
 article {
@@ -77,28 +79,31 @@ article {
 
 
 article img {
-  width: 100%;
-  border-radius: 12px;
-  object-fit: cover;
+    width: 100%;
+    border-radius: 0;
+    object-fit: fill; /* distorsiona la imagen */
 }
 
 article h2 {
-  margin-top: 12px;
-  color: #222;
-  font-size: 1.3rem;
+    color: #0000ff; /* azul chillón */
+    font-size: 2rem; /* tamaño exagerado */
+    text-align: left;
+}
+
+article p {
+    color: #ff00ff; /* rosa neón */
+    font-size: 0.7rem; /* demasiado pequeño */
 }
 
 article a {
-  display: inline-block;
-  margin-top: 12px;
-  font-weight: bold;
-  color: #0077cc;
-  transition: color 0.3s ease;
+    display: block;
+    margin-top: 0;
+    font-weight: normal;
+    color: #00ffff; /* cian chillón */
+    text-decoration: underline;
+    font-size: 0.8rem;
 }
 
-article a:hover {
-  color: #005fa3;
-}
 
 
 /* ===== Ruben: ASIDE ===== */
