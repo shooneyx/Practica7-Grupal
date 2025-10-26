@@ -15,15 +15,13 @@ a {
 header {
   font-family: 'Handlee', cursive;
   background-image: url('https://www.transparenttextures.com/patterns/dust.png');
-  background-color: #6F4E37;
+  background-color: #0f293c;
 
   /* textura suave */
   color: #f5f0eb;
   /* crema suave que contrasta */
   padding: 25px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  border-bottom: 3px solid #d1b28a;
+  border-bottom: 3px solid #537c71;
   /* borde decorativo */
 }
 
