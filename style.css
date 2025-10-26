@@ -69,13 +69,14 @@ footer {
 }
 
 article {
-    background: #ffff00; /* amarillo intenso */
-    width: 400px; /* demasiado ancho */
-    padding: 5px; /* poco padding */
-    border: 5px dashed #00ff00; /* borde verde chillón */
-    border-radius: 0; /* sin suavidad */
-    box-shadow: 0 0 0 rgba(0,0,0,0); /* sin sombra atractiva */
+  background: #ffffff;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 article img {
     width: 100%;
