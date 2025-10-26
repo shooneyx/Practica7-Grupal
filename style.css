@@ -11,10 +11,10 @@ a {
   color: #0077cc;
 }
 
-/* ===== PERSONA 1: HEADER Y FOOTER ===== */
+/* ===== Sheila: HEADER Y FOOTER ===== */
 header {
   font-family: 'Times New Roman', Times, serif, sans-serif;
-  background-color: #D7BDE2;
+  background-color: #B5B9FF;
   color: white;
   padding: 20px;
   text-align: center;
@@ -36,14 +36,14 @@ nav a {
 }
 
 footer {
-  background-color:  #D7BDE2;
+  background-color: #B5B9FF;
   color: white;
   text-align: center;
   padding: 15px;
   margin-top: 30px;
 }
 
-/* ===== PERSONA 2: ARTÍCULOS ===== */
+/* ===== Nathan: ARTÍCULOS ===== */
 .articulos {
     display: flex;
     flex-wrap: wrap;
@@ -91,7 +91,7 @@ article a:hover {
 }
 
 
-/* ===== PERSONA 3: ASIDE ===== */
+/* ===== Ruben: ASIDE ===== */
 aside {
   background-color: #e9f4ff; /* tono azul claro */
   padding: 25px;
