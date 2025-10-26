@@ -13,12 +13,27 @@ a {
 
 /* ===== PERSONA 1: HEADER Y FOOTER ===== */
 header {
-  font-family: 'Times New Roman', Times, serif, sans-serif;
-  background-color: #D7BDE2;
-  color: white;
-  padding: 20px;
+  font-family: 'Handlee', cursive;
+  background-image: url('https://www.transparenttextures.com/patterns/dust.png');
+  background-color: #6F4E37;
+
+  /* textura suave */
+  color: #f5f0eb;
+  /* crema suave que contrasta */
+  padding: 25px;
   text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #d1b28a;
+  /* borde decorativo */
 }
+
+header h1 {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
 
 nav ul {
   list-style: none;
@@ -36,7 +51,7 @@ nav a {
 }
 
 footer {
-  background-color:  #D7BDE2;
+  background-color: #D7BDE2;
   color: white;
   text-align: center;
   padding: 15px;
@@ -45,60 +60,61 @@ footer {
 
 /* ===== PERSONA 2: ARTÍCULOS ===== */
 .articulos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 25px;
 }
 
 article {
-    background: #ffffff;
-    width: 300px;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #ffffff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 article:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 article img {
-    width: 100%;
-    border-radius: 12px;
-    object-fit: cover;
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
 article h2 {
-    margin-top: 12px;
-    color: #222;
-    font-size: 1.3rem;
+  margin-top: 12px;
+  color: #222;
+  font-size: 1.3rem;
 }
 
 article a {
-    display: inline-block;
-    margin-top: 12px;
-    font-weight: bold;
-    color: #0077cc;
-    transition: color 0.3s ease;
+  display: inline-block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #0077cc;
+  transition: color 0.3s ease;
 }
 
 article a:hover {
-    color: #005fa3;
+  color: #005fa3;
 }
 
 
 /* ===== PERSONA 3: ASIDE ===== */
 aside {
-  background-color: #e9f4ff; /* tono azul claro */
+  background-color: #e9f4ff;
+  /* tono azul claro */
   padding: 25px;
   margin: 20px auto;
   border-radius: 15px;
   width: 300px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 aside h3 {
