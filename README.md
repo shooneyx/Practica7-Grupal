@@ -1,4 +1,5 @@
-# PracticaDuo
+# Practica7-Grupal
+
 Actividad 7
 
 
