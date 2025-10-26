@@ -11,17 +11,15 @@ a {
   color: #0077cc;
 }
 
-/* ===== PERSONA 1: HEADER Y FOOTER ===== */
+/* ===== Sheila: HEADER Y FOOTER ===== */
 header {
-  font-family: 'Handlee', cursive;
-  background-image: url('https://www.transparenttextures.com/patterns/dust.png');
-  background-color: #0f293c;
-
-  /* textura suave */
-  color: #f5f0eb;
-  /* crema suave que contrasta */
-  padding: 25px;
-  border-bottom: 3px solid #537c71;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #B5B9FF;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #d1b28a;
   /* borde decorativo */
 }
 
@@ -59,7 +57,7 @@ footer {
   margin-top: 30px;
 }
 
-/* ===== PERSONA 2: ARTÍCULOS ===== */
+/* ===== Nathan: ARTÍCULOS ===== */
 .articulos {
   display: flex;
   flex-wrap: wrap;
@@ -107,7 +105,7 @@ article a:hover {
 }
 
 
-/* ===== PERSONA 3: ASIDE ===== */
+/* ===== Ruben: ASIDE ===== */
 aside {
   background-color: #e9f4ff;
   /* tono azul claro */
