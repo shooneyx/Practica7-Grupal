@@ -44,6 +44,9 @@ nav li {
   display: inline-block;
   margin: 0 10px;
 }
+li:hover{
+    font-size: 20px;
+}
 
 nav a {
   color: white;
