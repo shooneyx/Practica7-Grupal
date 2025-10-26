@@ -76,15 +76,27 @@ article a {
 
 /* ===== PERSONA 3: ASIDE ===== */
 aside {
-  background-color: white;
-  padding: 20px;
-  margin: 0 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #e9f4ff; /* tono azul claro */
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 aside h3 {
-  margin-top: 0;
+  color: #0077cc;
+  border-bottom: 2px solid #0077cc;
+  padding-bottom: 5px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside li {
+  margin: 8px 0;
 }
 
 /* ===== RESPONSIVE ===== */
